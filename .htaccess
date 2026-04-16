@@ -1,0 +1,13 @@
+DirectoryIndex index.php
+
+<Files "content.html">
+    Require all denied
+</Files>
+
+<Files "index.html">
+    Require all denied
+</Files>
+
+<FilesMatch "^\.(ht|htpasswd)">
+    Require all denied
+</FilesMatch>
